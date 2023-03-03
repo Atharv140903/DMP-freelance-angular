@@ -1,0 +1,24 @@
+.button{
+    background-color: blue;
+    color: aliceblue; 
+    box-shadow: 0 3px #999;
+}
+.button:hover{
+    background-color: #3e8e41;
+}
+.button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 4px #666;
+    transform: translateY(4px);
+}
+label{
+    font-weight: bold;
+    font-size: xx-large;
+}
+form{
+    font-family:cursive;
+    
+}
+h1{
+    text-align: center;
+}
