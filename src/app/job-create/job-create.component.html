@@ -1,1 +1,68 @@
-<p>job-create works!</p>
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h1>Create Job Post </h1>
+
+<div>
+  <form action="/action_page.php">
+    <label for="pname">Project name</label>
+    <input type="text" id="pname" name="projectname" placeholder="Your project name">
+
+    <label for="company">Company</label>
+    <input type="text" id="company" name="company" placeholder="Your company name">
+
+    <label for="projectd">Project description</label>
+    <input type="text" id="projectd" name="projectdescription" placeholder="describe here">
+
+    <label for="workd">Work description</label>
+    <input type="text" id="workd" name="workdescription" placeholder="describe here">
+
+    <label for="stipened">Stipened</label>
+    <input type="text" id="stipened" name="stipened" placeholder="enter amount in Rs.">
+
+    <label for="durationd">Duration</label>
+    <input type="text" id="duration" name="duration" placeholder="enter here">
+  <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
